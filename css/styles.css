@@ -59,6 +59,10 @@ header {
     padding: 2rem 1rem;
 }
 
+header h1, header h2 {
+  margin: 0;
+}
+
 header img {
     width: 150px;       
     max-width: 100%;         
@@ -68,11 +72,32 @@ header img {
     margin: 0 auto 1rem;
 }
 
+.profile-img {
+  width: 300px;         /* b. sets image width */
+  border-radius: 50%;   /* c. makes it circular */
+  float: left;          /* e. floats image so text wraps around it */
+  margin-right: 30px;   /* g. space between image and text */
+}
+
 footer {
     background: #2563EB; 
     color: white;
     text-align: center;
     padding: 1.5rem 1rem;
+}
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+  color: #333;
+  text-decoration: none; 
+  font-weight: 500; 
+  transition: color 0.3s ease, text-decoration 0.3s ease; 
+}
+
+.contact-info a:hover {
+  color: #0077cc;
+  text-decoration: underline; 
 }
 
 /* Work Experience
