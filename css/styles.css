@@ -1,25 +1,77 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
-*/
+------------------------------------
+#0F172A - Deep Navy (Primary)
+#2563EB - Bright Blue (Secondary)
+#F9FAFB - Light Background
+#1E293B - Dark Text
+------------------------------------*/
 
-/* Global styles 
+/* Global Styles
 ------------------------------------*/
 body {
-    /*background: lightblue;*/
+    background: #F9FAFB;
+    color: #1E293B;
+    font-family: 'Open Sans', Arial, sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
 }
 
+h1, h2, h3 {
+    font-family: 'Roboto', 'Open Sans', sans-serif; 
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5rem;     
+    letter-spacing: 1px;
+    color: white; 
+}
+
+h2 {
+    font-size: 1.75rem;      
+    font-weight: 600;
+    color: white; 
+}
+
+h3 {
+    font-size: 1.25rem;      
+    font-weight: 600;
+    color: #1E293B;
+    margin-top: 1rem;
+}
+
+p {
+    font-size: 1rem;        
+    margin-bottom: 1rem;
+}
 
 /* Header & Footer 
 ------------------------------------*/
+header {
+    background: #0F172A;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
 
+header img {
+    width: 150px;       
+    max-width: 100%;         
+    height: auto;             
+    display: block;           
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+}
 
+footer {
+    background: #2563EB; 
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
 
 /* Work Experience
 ------------------------------------*/
-
 
 
 /* Education
