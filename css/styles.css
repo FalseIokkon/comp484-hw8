@@ -8,10 +8,18 @@
 
 /* Global Styles
 ------------------------------------*/
+
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
     background: #F9FAFB;
     color: #1E293B;
-    font-family: 'Open Sans', Arial, sans-serif; 
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
 }
@@ -19,6 +27,8 @@ body {
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
+  padding: 50px;                               
+  overflow: hidden;                            
 }
 
 h1, h2, h3 {
@@ -50,6 +60,34 @@ p {
     margin-bottom: 1rem;
 }
 
+/* Columns */
+.column-narrow {
+  width: 30%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+
+.column-wide {
+  width: 70%;
+  float: left;
+  min-height: 225px;
+}
+
+.job {
+  overflow: hidden;     
+  margin-bottom: 24px;  
+}
+
+
+
+.profile-img {
+  border-radius: 50%;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Header & Footer 
 ------------------------------------*/
 header {
@@ -61,22 +99,6 @@ header {
 
 header h1, header h2 {
   margin: 0;
-}
-
-header img {
-    width: 150px;       
-    max-width: 100%;         
-    height: auto;             
-    display: block;           
-    border-radius: 50%;
-    margin: 0 auto 1rem;
-}
-
-.profile-img {
-  width: 300px;         /* b. sets image width */
-  border-radius: 50%;   /* c. makes it circular */
-  float: left;          /* e. floats image so text wraps around it */
-  margin-right: 30px;   /* g. space between image and text */
 }
 
 footer {
