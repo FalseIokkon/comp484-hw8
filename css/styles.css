@@ -46,13 +46,13 @@ h2 {
     font-size: 1.75rem;      
     font-weight: 600;
     color: #2563EB; 
+    margin: 0 0 12px;
 }
 
 h3 {
     font-size: 1.25rem;      
     font-weight: 600;
     color: #1E293B;
-    margin-top: 1rem;
 }
 
 p {
@@ -65,21 +65,19 @@ p {
   width: 30%;
   float: left;
   padding-right: 3%;
-  min-height: 175px;
+  min-height: 0px;
 }
 
 .column-wide {
   width: 70%;
   float: left;
-  min-height: 225px;
+  min-height: 0px;
 }
 
 .job {
   overflow: hidden;     
-  margin-bottom: 24px;  
+  margin-bottom: 0px;  
 }
-
-
 
 .profile-img {
   border-radius: 50%;
