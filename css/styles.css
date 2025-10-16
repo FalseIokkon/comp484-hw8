@@ -99,6 +99,10 @@ header h1, header h2 {
   margin: 0;
 }
 
+header h1 {
+  color: #2563EB;
+}
+
 footer {
     background: #2563EB; 
     color: white;
