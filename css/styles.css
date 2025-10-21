@@ -137,9 +137,32 @@ footer h2 {
   text-decoration: underline; 
 }
 
-/* Work Experience
-------------------------------------*/
+/* Site-Nav */
 
+.site-nav {
+  position: sticky;   /* stays at top when reached */
+  top: 0;
+  z-index: 1000;
+  background: #0F172A;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
 
-/* Education
-------------------------------------*/
+.nav-inner {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.75rem 0;
+}
+
+.site-nav a {
+  color: #F9FAFB;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 0.25rem;
+  transition: opacity .2s ease;
+}
+.site-nav a:hover, .site-nav a:focus { opacity: .8; }
+
+html { scroll-behavior: smooth; }
+
+#History, #Education, #contact { scroll-margin-top: 80px; }
