@@ -27,6 +27,26 @@ body {
     margin: 0; /* Homework 3d */
 }
 
+.has-hero-bg {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(15, 23, 42, 0.35),  
+      rgba(15, 23, 42, 0.10)
+    ),
+    url("../assets/AdobeStock_1641884860.png"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.has-hero-bg h2,
+.has-hero-bg h3,
+.has-hero-bg p {
+  color: #F9FAFB; 
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
 /* Step 3a: Add padding to content wrap */
 .content-wrap {
   max-width: 950px;
@@ -140,7 +160,7 @@ footer h2 {
 /* Site-Nav */
 
 .site-nav {
-  position: sticky;   /* stays at top when reached */
+  position: sticky;   
   top: 0;
   z-index: 1000;
   background: #0F172A;
