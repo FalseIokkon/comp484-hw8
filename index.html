@@ -13,27 +13,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-
 </head>
+
+
 <body>
+    <!-- Nav Bar -->
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- HW8 1a/1b/1c/1d: nav (anchors only, no list) -->
+    <nav class="site-nav">
+    <div class="nav-inner content-wrap">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <!-- 1d: link to downloadable PDF -->
+        <a href="assets/Jonathan-Yun-Resume.pdf" download>Download PDF</a>
+    </div>
+    </nav>
+
+
+
     <!-- // Intro -->
     <header>
-    <div class="content-wrap">
-        <div class="column-narrow">
-            <img src="images/IMG_20250806_173237_024.webp" alt="Jonathan Yun" class="profile-img">
+        <div class="content-wrap">
+            <div class="column-narrow">
+                <img src="images/IMG_20250806_173237_024.webp" alt="Jonathan Yun" class="profile-img">
+            </div>
+            <div class="column-wide">
+                <h1>Jonathan Yun</h1>
+                <h2>Computer Science Student</h2>
+                <p>This is my personal website that I made for my Computer Science 484 class at CSUN.</p>
+            </div>
         </div>
-        <div class="column-wide">
-            <h1>Jonathan Yun</h1>
-            <h2>Computer Science Student</h2>
-            <p>This is my personal website that I made for my Computer Science 484 class at CSUN.</p>
-        </div>
-    </div>
     </header>
     
-    <main> 
+    <main id = "main"> 
         <!-- // Work Experience -->
-        <section>
+        <section id = "Work History">
             <div class="content-wrap">
                 <h2>Work Experience</h2>
 
@@ -71,7 +89,7 @@
 
 
         <!-- // Education -->
-        <section>
+        <section id = "Education">
             <div class="content-wrap">
                 <h2>Education</h2>
 
@@ -88,20 +106,22 @@
     
     <!-- // Footer & contact info -->
     <footer>
+        <section id = "contact">
             <div class="content-wrap">
-            <h2>Let's Keep in Touch!</h2>
-            
-            <!-- Social media and contact links. Add or remove any networks. -->
-            <div class ="contact-info">
-                <a href="mailto:jonathan.yun.921@my.csun.edu">jonathan.yun.921@my.csun.edu</a>
-                <a href="http://csun.edu" target="_blank">jonathanyun.com</a>
-                <a href="https://x.com/home?lang=en" target="_blank">Twitter</a>
-                <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-                <a href="https://facebook.com" target="_blank">Facebook</a>
-            </div>
+                <h2>Let's Keep in Touch!</h2>
+                
+                <!-- Social media and contact links. Add or remove any networks. -->
+                <div class ="contact-info">
+                    <a href="mailto:jonathan.yun.921@my.csun.edu">jonathan.yun.921@my.csun.edu</a>
+                    <a href="http://csun.edu" target="_blank">jonathanyun.com</a>
+                    <a href="https://x.com/home?lang=en" target="_blank">Twitter</a>
+                    <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+                </div>
 
-            <p>Copyright 2025 by Jonathan Yun</p>
-        </div>
+                <p>Copyright 2025 by Jonathan Yun</p>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
