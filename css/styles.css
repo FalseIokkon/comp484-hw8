@@ -17,19 +17,22 @@ html {
   box-sizing: inherit;
 }
 
+/* Step 3d: Remove default body margin */
 body {
     background: #F9FAFB;
     color: #1E293B;
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
+    margin: 0; /* Homework 3d */
 }
 
+/* Step 3a: Add padding to content wrap */
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
-  padding: 50px;                               
-  overflow: hidden;                            
+  padding: 50px;        /* Homework 3a */                        
+  overflow: hidden;     /* Step 4f */            
 }
 
 h1, h2, h3 {
@@ -43,11 +46,12 @@ h1 {
     color: #0F172A; 
 }
 
+/* Step 3b & 3c: Remove top margin from h2 for consistent spacing */
 h2 {
     font-size: 1.75rem;      
     font-weight: 600;
     color: #2563EB; 
-    margin: 0 0 12px;
+    margin: 0 0 12px; /* Homework 3b & 3c */
 }
 
 h3 {
@@ -81,10 +85,12 @@ p {
 }
 
 .profile-img {
-  border-radius: 50%;
+  border-radius: 50%; /* Step 4c */
   display: block;
-  max-width: 100%;
-  height: auto;
+  height: 300px;  /* Step 4a/4b */
+  width: auto;
+  float: left;  /* Step 4e */
+  margin-right: 30px; /* Step 4g */
 }
 
 /* Header & Footer 
@@ -104,10 +110,11 @@ header h1 {
   color: #2563EB;
 }
 
+/* Step 3e: Center align footer text */
 footer {
     background: #2563EB; 
     color: white;
-    text-align: center;
+    text-align: center; /* Homework 3e */
     padding: 1.5rem 1rem;
 }
 
@@ -115,9 +122,10 @@ footer h2 {
   color: white;
 }
 
+/* Step 3f & 3g: Style links inside contact-info div */
 .contact-info a {
-  padding: 10px;
-  display: inline-block;
+  padding: 10px;              /* Homework 3g */
+  display: inline-block;      /* Homework 3g */
   color: #333;
   text-decoration: none; 
   font-weight: 500; 
