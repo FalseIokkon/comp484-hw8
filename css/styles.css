@@ -40,13 +40,6 @@ body {
   background-repeat: no-repeat;
 }
 
-.has-hero-bg h2,
-.has-hero-bg h3,
-.has-hero-bg p {
-  color: #F9FAFB; 
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
-}
-
 /* Step 3a: Add padding to content wrap */
 .content-wrap {
   max-width: 950px;
